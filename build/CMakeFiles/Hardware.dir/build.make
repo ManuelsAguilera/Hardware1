@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /nix/store/3436gn830drh7528fc29wd41xsjl0wgf-cmake-cursesUI-qt5UI-3.24.3/bin/cmake
+CMAKE_COMMAND = /nix/store/rxb9zl1mdx9f2n3z0nyv9zhngj3f2pw0-cmake-3.24.3/bin/cmake
 
 # The command to remove a file.
-RM = /nix/store/3436gn830drh7528fc29wd41xsjl0wgf-cmake-cursesUI-qt5UI-3.24.3/bin/cmake -E rm -f
+RM = /nix/store/rxb9zl1mdx9f2n3z0nyv9zhngj3f2pw0-cmake-3.24.3/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -69,31 +69,47 @@ include CMakeFiles/Hardware.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Hardware.dir/flags.make
 
-CMakeFiles/Hardware.dir/src/TestMain.c.o: CMakeFiles/Hardware.dir/flags.make
-CMakeFiles/Hardware.dir/src/TestMain.c.o: /home/runner/Tarea-Hardware-1/src/TestMain.c
-CMakeFiles/Hardware.dir/src/TestMain.c.o: CMakeFiles/Hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Hardware.dir/src/TestMain.c.o"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Hardware.dir/src/TestMain.c.o -MF CMakeFiles/Hardware.dir/src/TestMain.c.o.d -o CMakeFiles/Hardware.dir/src/TestMain.c.o -c /home/runner/Tarea-Hardware-1/src/TestMain.c
+CMakeFiles/Hardware.dir/src/main.c.o: CMakeFiles/Hardware.dir/flags.make
+CMakeFiles/Hardware.dir/src/main.c.o: /home/runner/Tarea-Hardware-1/src/main.c
+CMakeFiles/Hardware.dir/src/main.c.o: CMakeFiles/Hardware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Hardware.dir/src/main.c.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Hardware.dir/src/main.c.o -MF CMakeFiles/Hardware.dir/src/main.c.o.d -o CMakeFiles/Hardware.dir/src/main.c.o -c /home/runner/Tarea-Hardware-1/src/main.c
 
-CMakeFiles/Hardware.dir/src/TestMain.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hardware.dir/src/TestMain.c.i"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/Tarea-Hardware-1/src/TestMain.c > CMakeFiles/Hardware.dir/src/TestMain.c.i
+CMakeFiles/Hardware.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hardware.dir/src/main.c.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/Tarea-Hardware-1/src/main.c > CMakeFiles/Hardware.dir/src/main.c.i
 
-CMakeFiles/Hardware.dir/src/TestMain.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hardware.dir/src/TestMain.c.s"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/Tarea-Hardware-1/src/TestMain.c -o CMakeFiles/Hardware.dir/src/TestMain.c.s
+CMakeFiles/Hardware.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hardware.dir/src/main.c.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/Tarea-Hardware-1/src/main.c -o CMakeFiles/Hardware.dir/src/main.c.s
+
+CMakeFiles/Hardware.dir/src/readingData.c.o: CMakeFiles/Hardware.dir/flags.make
+CMakeFiles/Hardware.dir/src/readingData.c.o: /home/runner/Tarea-Hardware-1/src/readingData.c
+CMakeFiles/Hardware.dir/src/readingData.c.o: CMakeFiles/Hardware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Hardware.dir/src/readingData.c.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Hardware.dir/src/readingData.c.o -MF CMakeFiles/Hardware.dir/src/readingData.c.o.d -o CMakeFiles/Hardware.dir/src/readingData.c.o -c /home/runner/Tarea-Hardware-1/src/readingData.c
+
+CMakeFiles/Hardware.dir/src/readingData.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hardware.dir/src/readingData.c.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/Tarea-Hardware-1/src/readingData.c > CMakeFiles/Hardware.dir/src/readingData.c.i
+
+CMakeFiles/Hardware.dir/src/readingData.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hardware.dir/src/readingData.c.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/Tarea-Hardware-1/src/readingData.c -o CMakeFiles/Hardware.dir/src/readingData.c.s
 
 # Object files for target Hardware
 Hardware_OBJECTS = \
-"CMakeFiles/Hardware.dir/src/TestMain.c.o"
+"CMakeFiles/Hardware.dir/src/main.c.o" \
+"CMakeFiles/Hardware.dir/src/readingData.c.o"
 
 # External object files for target Hardware
 Hardware_EXTERNAL_OBJECTS =
 
-Hardware: CMakeFiles/Hardware.dir/src/TestMain.c.o
+Hardware: CMakeFiles/Hardware.dir/src/main.c.o
+Hardware: CMakeFiles/Hardware.dir/src/readingData.c.o
 Hardware: CMakeFiles/Hardware.dir/build.make
 Hardware: CMakeFiles/Hardware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Hardware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Hardware"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hardware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /nix/store/3436gn830drh7528fc29wd41xsjl0wgf-cmake-cursesUI-qt5UI-3.24.3/bin/cmake
+CMAKE_COMMAND = /nix/store/rxb9zl1mdx9f2n3z0nyv9zhngj3f2pw0-cmake-3.24.3/bin/cmake
 
 # The command to remove a file.
-RM = /nix/store/3436gn830drh7528fc29wd41xsjl0wgf-cmake-cursesUI-qt5UI-3.24.3/bin/cmake -E rm -f
+RM = /nix/store/rxb9zl1mdx9f2n3z0nyv9zhngj3f2pw0-cmake-3.24.3/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/nix/store/3436gn830drh7528fc29wd41xsjl0wgf-cmake-cursesUI-qt5UI-3.24.3/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/nix/store/rxb9zl1mdx9f2n3z0nyv9zhngj3f2pw0-cmake-3.24.3/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -130,29 +130,53 @@ Hardware/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/build
 .PHONY : Hardware/fast
 
-src/TestMain.o: src/TestMain.c.o
-.PHONY : src/TestMain.o
+src/main.o: src/main.c.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/TestMain.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/TestMain.c.o
-.PHONY : src/TestMain.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-src/TestMain.i: src/TestMain.c.i
-.PHONY : src/TestMain.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/TestMain.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/TestMain.c.i
-.PHONY : src/TestMain.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-src/TestMain.s: src/TestMain.c.s
-.PHONY : src/TestMain.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/TestMain.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/TestMain.c.s
-.PHONY : src/TestMain.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/readingData.o: src/readingData.c.o
+.PHONY : src/readingData.o
+
+# target to build an object file
+src/readingData.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/readingData.c.o
+.PHONY : src/readingData.c.o
+
+src/readingData.i: src/readingData.c.i
+.PHONY : src/readingData.i
+
+# target to preprocess a source file
+src/readingData.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/readingData.c.i
+.PHONY : src/readingData.c.i
+
+src/readingData.s: src/readingData.c.s
+.PHONY : src/readingData.s
+
+# target to generate assembly for a file
+src/readingData.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/readingData.c.s
+.PHONY : src/readingData.c.s
 
 # Help Target
 help:
@@ -163,9 +187,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Hardware"
-	@echo "... src/TestMain.o"
-	@echo "... src/TestMain.i"
-	@echo "... src/TestMain.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/readingData.o"
+	@echo "... src/readingData.i"
+	@echo "... src/readingData.s"
 .PHONY : help
 
 

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Hardware.dir/src/TestMain.c.o"
-  "CMakeFiles/Hardware.dir/src/TestMain.c.o.d"
+  "CMakeFiles/Hardware.dir/src/main.c.o"
+  "CMakeFiles/Hardware.dir/src/main.c.o.d"
+  "CMakeFiles/Hardware.dir/src/readingData.c.o"
+  "CMakeFiles/Hardware.dir/src/readingData.c.o.d"
   "Hardware"
   "Hardware.pdb"
 )

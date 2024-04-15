@@ -1,14 +1,6 @@
 #ifndef READING_DATA_H
 #define READING_DATA_H
 
-#
-
-// Estructura de datos de la barberia
-typedef struct BarbershopInfo {
-  int clientChairs;  // sillas de espera
-  int numBarbers;    // numero de barberos
-  int barberChairs;; // sillas de barbero
-} BarbershopInfo;
 
 // Estructura de datos de los clientes
 typedef struct ClientInfo {
@@ -17,8 +9,18 @@ typedef struct ClientInfo {
   int cuttingTime; // tiempo que demora el corte con el barbero
 } ClientInfo;
 
+// Estructura de datos de la barberia
+typedef struct BarbershopInfo {
+  int clientChairs;  // sillas de espera
+  int numBarbers;    // numero de barberos
+  int barberChairs; // sillas de barbero
+} BarbershopInfo;
+
+// Lectura
+
+
 // Lectura de datos de la barberia
-BarbershopInfo *readBarbershopData(const char *filename, int *numReadings);
+BarbershopInfo *readBarbershopData(const char *filename);
 
 // Lectura de datos de los clientes
 ClientInfo *readClientsData(const char *filename, int *numReadings);

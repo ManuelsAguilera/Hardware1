@@ -4,12 +4,19 @@
 #include <pthread.h>
 #include <stdlib.h>
 
-struct WaitingQueue
+struct WaitingQueue //chair implementation
 {
   int max_queue;
   int count_queue;
-  pthread_t *queue;
+  Client *queue;
+  boolean* buzon;
 };
+
+typedef struct Client
+{
+  pthread_t *process;
+  int id;
+}Client;
 
 typedef struct WaitingQueue WaitingQueue;
 
@@ -19,6 +26,6 @@ void addToWaitingQueue(WaitingQueue *WQueue, pthread_t InputWQueue);
 
 void checkWaitingQueue(WaitingQueue *WQueue);
 
-void shiftElements(WaitingQueue *WQueue,int shiftCount) ;
+void shiftElements(WaitingQueue *WQueue,int shiftCount);
 
 #endif // WAITING_QUEUE_H
