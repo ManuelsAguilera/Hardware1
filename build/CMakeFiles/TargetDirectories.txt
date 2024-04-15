@@ -1,0 +1,3 @@
+/home/runner/Tarea-Hardware-1/build/CMakeFiles/Hardware.dir
+/home/runner/Tarea-Hardware-1/build/CMakeFiles/edit_cache.dir
+/home/runner/Tarea-Hardware-1/build/CMakeFiles/rebuild_cache.dir
