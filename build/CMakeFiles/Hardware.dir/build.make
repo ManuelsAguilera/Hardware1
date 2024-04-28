@@ -69,10 +69,38 @@ include CMakeFiles/Hardware.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Hardware.dir/flags.make
 
+CMakeFiles/Hardware.dir/src/Barbershop.c.o: CMakeFiles/Hardware.dir/flags.make
+CMakeFiles/Hardware.dir/src/Barbershop.c.o: /home/runner/Tarea-Hardware-1/src/Barbershop.c
+CMakeFiles/Hardware.dir/src/Barbershop.c.o: CMakeFiles/Hardware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Hardware.dir/src/Barbershop.c.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Hardware.dir/src/Barbershop.c.o -MF CMakeFiles/Hardware.dir/src/Barbershop.c.o.d -o CMakeFiles/Hardware.dir/src/Barbershop.c.o -c /home/runner/Tarea-Hardware-1/src/Barbershop.c
+
+CMakeFiles/Hardware.dir/src/Barbershop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hardware.dir/src/Barbershop.c.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/Tarea-Hardware-1/src/Barbershop.c > CMakeFiles/Hardware.dir/src/Barbershop.c.i
+
+CMakeFiles/Hardware.dir/src/Barbershop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hardware.dir/src/Barbershop.c.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/Tarea-Hardware-1/src/Barbershop.c -o CMakeFiles/Hardware.dir/src/Barbershop.c.s
+
+CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o: CMakeFiles/Hardware.dir/flags.make
+CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o: /home/runner/Tarea-Hardware-1/src/BarbershopInfo.c
+CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o: CMakeFiles/Hardware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o -MF CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o.d -o CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o -c /home/runner/Tarea-Hardware-1/src/BarbershopInfo.c
+
+CMakeFiles/Hardware.dir/src/BarbershopInfo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hardware.dir/src/BarbershopInfo.c.i"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/Tarea-Hardware-1/src/BarbershopInfo.c > CMakeFiles/Hardware.dir/src/BarbershopInfo.c.i
+
+CMakeFiles/Hardware.dir/src/BarbershopInfo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hardware.dir/src/BarbershopInfo.c.s"
+	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/Tarea-Hardware-1/src/BarbershopInfo.c -o CMakeFiles/Hardware.dir/src/BarbershopInfo.c.s
+
 CMakeFiles/Hardware.dir/src/main.c.o: CMakeFiles/Hardware.dir/flags.make
 CMakeFiles/Hardware.dir/src/main.c.o: /home/runner/Tarea-Hardware-1/src/main.c
 CMakeFiles/Hardware.dir/src/main.c.o: CMakeFiles/Hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Hardware.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Hardware.dir/src/main.c.o"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Hardware.dir/src/main.c.o -MF CMakeFiles/Hardware.dir/src/main.c.o.d -o CMakeFiles/Hardware.dir/src/main.c.o -c /home/runner/Tarea-Hardware-1/src/main.c
 
 CMakeFiles/Hardware.dir/src/main.c.i: cmake_force
@@ -83,33 +111,21 @@ CMakeFiles/Hardware.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hardware.dir/src/main.c.s"
 	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/Tarea-Hardware-1/src/main.c -o CMakeFiles/Hardware.dir/src/main.c.s
 
-CMakeFiles/Hardware.dir/src/readingData.c.o: CMakeFiles/Hardware.dir/flags.make
-CMakeFiles/Hardware.dir/src/readingData.c.o: /home/runner/Tarea-Hardware-1/src/readingData.c
-CMakeFiles/Hardware.dir/src/readingData.c.o: CMakeFiles/Hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Hardware.dir/src/readingData.c.o"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Hardware.dir/src/readingData.c.o -MF CMakeFiles/Hardware.dir/src/readingData.c.o.d -o CMakeFiles/Hardware.dir/src/readingData.c.o -c /home/runner/Tarea-Hardware-1/src/readingData.c
-
-CMakeFiles/Hardware.dir/src/readingData.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hardware.dir/src/readingData.c.i"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/Tarea-Hardware-1/src/readingData.c > CMakeFiles/Hardware.dir/src/readingData.c.i
-
-CMakeFiles/Hardware.dir/src/readingData.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hardware.dir/src/readingData.c.s"
-	/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/Tarea-Hardware-1/src/readingData.c -o CMakeFiles/Hardware.dir/src/readingData.c.s
-
 # Object files for target Hardware
 Hardware_OBJECTS = \
-"CMakeFiles/Hardware.dir/src/main.c.o" \
-"CMakeFiles/Hardware.dir/src/readingData.c.o"
+"CMakeFiles/Hardware.dir/src/Barbershop.c.o" \
+"CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o" \
+"CMakeFiles/Hardware.dir/src/main.c.o"
 
 # External object files for target Hardware
 Hardware_EXTERNAL_OBJECTS =
 
+Hardware: CMakeFiles/Hardware.dir/src/Barbershop.c.o
+Hardware: CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o
 Hardware: CMakeFiles/Hardware.dir/src/main.c.o
-Hardware: CMakeFiles/Hardware.dir/src/readingData.c.o
 Hardware: CMakeFiles/Hardware.dir/build.make
 Hardware: CMakeFiles/Hardware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Hardware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Hardware"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hardware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

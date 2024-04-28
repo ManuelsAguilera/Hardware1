@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Hardware.dir/src/Barbershop.c.o"
+  "CMakeFiles/Hardware.dir/src/Barbershop.c.o.d"
+  "CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o"
+  "CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o.d"
   "CMakeFiles/Hardware.dir/src/main.c.o"
   "CMakeFiles/Hardware.dir/src/main.c.o.d"
-  "CMakeFiles/Hardware.dir/src/readingData.c.o"
-  "CMakeFiles/Hardware.dir/src/readingData.c.o.d"
   "Hardware"
   "Hardware.pdb"
 )

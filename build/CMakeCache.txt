@@ -110,7 +110,7 @@ CMAKE_INSTALL_PREFIX:PATH=/var/empty/local
 CMAKE_LINKER:FILEPATH=/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/ld
 
 //Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/bin/make
+CMAKE_MAKE_PROGRAM:FILEPATH=/nix/store/mblgz65m3zv9x548a3d5m96fj2pbwr09-gnumake-4.3/bin/make
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -280,8 +280,6 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/nix/store/3436gn830drh7528fc29wd41xsjl0wgf-cmake-cursesUI-qt5UI-3.24.3/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS

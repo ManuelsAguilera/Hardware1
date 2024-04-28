@@ -5,8 +5,9 @@ cmake_policy(SET CMP0009 NEW)
 # SRC at CMakeLists.txt:7 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/runner/Tarea-Hardware-1/src/*.c")
 set(OLD_GLOB
+  "/home/runner/Tarea-Hardware-1/src/Barbershop.c"
+  "/home/runner/Tarea-Hardware-1/src/BarbershopInfo.c"
   "/home/runner/Tarea-Hardware-1/src/main.c"
-  "/home/runner/Tarea-Hardware-1/src/readingData.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

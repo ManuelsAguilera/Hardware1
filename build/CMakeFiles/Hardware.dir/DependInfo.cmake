@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/runner/Tarea-Hardware-1/src/Barbershop.c" "CMakeFiles/Hardware.dir/src/Barbershop.c.o" "gcc" "CMakeFiles/Hardware.dir/src/Barbershop.c.o.d"
+  "/home/runner/Tarea-Hardware-1/src/BarbershopInfo.c" "CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o" "gcc" "CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o.d"
   "/home/runner/Tarea-Hardware-1/src/main.c" "CMakeFiles/Hardware.dir/src/main.c.o" "gcc" "CMakeFiles/Hardware.dir/src/main.c.o.d"
-  "/home/runner/Tarea-Hardware-1/src/readingData.c" "CMakeFiles/Hardware.dir/src/readingData.c.o" "gcc" "CMakeFiles/Hardware.dir/src/readingData.c.o.d"
   )
 
 # Targets to which this target links.

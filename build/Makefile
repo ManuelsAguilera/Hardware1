@@ -67,8 +67,8 @@ CMAKE_BINARY_DIR = /home/runner/Tarea-Hardware-1/build
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/nix/store/3436gn830drh7528fc29wd41xsjl0wgf-cmake-cursesUI-qt5UI-3.24.3/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/nix/store/rxb9zl1mdx9f2n3z0nyv9zhngj3f2pw0-cmake-3.24.3/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -130,6 +130,54 @@ Hardware/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/build
 .PHONY : Hardware/fast
 
+src/Barbershop.o: src/Barbershop.c.o
+.PHONY : src/Barbershop.o
+
+# target to build an object file
+src/Barbershop.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/Barbershop.c.o
+.PHONY : src/Barbershop.c.o
+
+src/Barbershop.i: src/Barbershop.c.i
+.PHONY : src/Barbershop.i
+
+# target to preprocess a source file
+src/Barbershop.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/Barbershop.c.i
+.PHONY : src/Barbershop.c.i
+
+src/Barbershop.s: src/Barbershop.c.s
+.PHONY : src/Barbershop.s
+
+# target to generate assembly for a file
+src/Barbershop.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/Barbershop.c.s
+.PHONY : src/Barbershop.c.s
+
+src/BarbershopInfo.o: src/BarbershopInfo.c.o
+.PHONY : src/BarbershopInfo.o
+
+# target to build an object file
+src/BarbershopInfo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/BarbershopInfo.c.o
+.PHONY : src/BarbershopInfo.c.o
+
+src/BarbershopInfo.i: src/BarbershopInfo.c.i
+.PHONY : src/BarbershopInfo.i
+
+# target to preprocess a source file
+src/BarbershopInfo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/BarbershopInfo.c.i
+.PHONY : src/BarbershopInfo.c.i
+
+src/BarbershopInfo.s: src/BarbershopInfo.c.s
+.PHONY : src/BarbershopInfo.s
+
+# target to generate assembly for a file
+src/BarbershopInfo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/BarbershopInfo.c.s
+.PHONY : src/BarbershopInfo.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -154,30 +202,6 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/readingData.o: src/readingData.c.o
-.PHONY : src/readingData.o
-
-# target to build an object file
-src/readingData.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/readingData.c.o
-.PHONY : src/readingData.c.o
-
-src/readingData.i: src/readingData.c.i
-.PHONY : src/readingData.i
-
-# target to preprocess a source file
-src/readingData.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/readingData.c.i
-.PHONY : src/readingData.c.i
-
-src/readingData.s: src/readingData.c.s
-.PHONY : src/readingData.s
-
-# target to generate assembly for a file
-src/readingData.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/src/readingData.c.s
-.PHONY : src/readingData.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -187,12 +211,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Hardware"
+	@echo "... src/Barbershop.o"
+	@echo "... src/Barbershop.i"
+	@echo "... src/Barbershop.s"
+	@echo "... src/BarbershopInfo.o"
+	@echo "... src/BarbershopInfo.i"
+	@echo "... src/BarbershopInfo.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/readingData.o"
-	@echo "... src/readingData.i"
-	@echo "... src/readingData.s"
 .PHONY : help
 
 

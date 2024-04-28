@@ -81,12 +81,12 @@ clean: CMakeFiles/Hardware.dir/clean
 CMakeFiles/Hardware.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hardware.dir/build.make CMakeFiles/Hardware.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=1,2,3 "Built target Hardware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/Tarea-Hardware-1/build/CMakeFiles --progress-num=1,2,3,4 "Built target Hardware"
 .PHONY : CMakeFiles/Hardware.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Hardware.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/Tarea-Hardware-1/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/Tarea-Hardware-1/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hardware.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/Tarea-Hardware-1/build/CMakeFiles 0
 .PHONY : CMakeFiles/Hardware.dir/rule
