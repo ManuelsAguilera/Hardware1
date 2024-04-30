@@ -133,10 +133,10 @@ void PrintClientsInfo(ClientInfo* clients, int size)
   printf("-----------------\n");
 }
 
+// WARNING: deberiamos de llamar size de otra manera mas descriptiva
 void PrintChairsInfo(ChairInfo* info, BarbershopInfo* size) {
   if (info == NULL)
     return;
-  
   int clientChairs = size->clientChairs;
   int barberChairs = size->barberChairs;
   

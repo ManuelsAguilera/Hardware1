@@ -44,7 +44,7 @@ void PrintBarbershop(Barbershop barberShop)
   printf("=========%s=========\n", barberShop.filepath);
   PrintBarbershopInfo(barberShop.shopInfo);
   PrintClientsInfo(barberShop.clients, barberShop.numClients);
-  PrintChairsInfo(barberShop.chairsInfo, barberShop.shopInfo); // perdon mati
+  PrintChairsInfo(barberShop.chairsInfo, barberShop.shopInfo);
   printf("================================\n");
 }
 
